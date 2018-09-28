@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "简介"
+title: "打赏"
 description: "" 
 header-img: "img/green.jpg"
 ---
