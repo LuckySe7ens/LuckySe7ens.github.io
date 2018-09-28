@@ -8,27 +8,33 @@ description: 文章金句。
 ---
 
 # 1、首先建表： 
+```javascript
 create table tababin( 
 id int not null auto_increment, 
 name varchar(100), 
 constraint pk primary key(id) 
 ) 
-
+```
 # 2、拷贝一张相同的表： 
+```javascript
 create table tababin1 like tababin; 
-
+```
 # 3.建立主键自增触发器： 
+```javascript
 create trigger triabin before insert on tababin for each ROW 
 begin 
 set @new=new.id; 
 end 
-
+```
 # 4、插入记录： 
+```javascript
 insert into tababin (name) values ('abin1') 
 insert into tababin (name) values ('abin2') 
 insert into tababin (name) values ('abin3') 
+```
 
 # 5‘编写存储过程(带游标和LOOP循环的存储过程)： 
+```javascript
 CREATE  PROCEDURE pabin() 
 begin 
 declare id,status int ; 
@@ -52,10 +58,11 @@ end if;
 end loop; 
 close mycur; 
 end 
-
+```
 6、测试存储过程： 
+```javascript
 call pabin() 
-
+```
 
 结果：tababin1表里面新增了数据。
 
