@@ -27,7 +27,7 @@ python3.5安装加密模块pycrypto
 
 执行
 ```
-pip install --use-wheel --no-index --find-links=https://github.com/sfbahr/PyCrypto-Wheels/raw/master/pycrypto-2.6.1-cp35-none-win_amd64.whl pycrypto
+pip install --use-wheel --no-index --find-links=https://github.com/sfbahr/PyCrypto-Wheels/raw/master/https://github.com/LuckySe7ens/PyCrypto-Wheels/blob/master/pycrypto-2.6.1-cp35-none-win_amd64.whl pycrypto
 ```
 执行编写的程序，没有发现模块
 原来是大小写的问题
