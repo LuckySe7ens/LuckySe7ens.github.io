@@ -8,7 +8,7 @@ description:
 ---
 
 ## pom.xml依赖
-```javascript
+```java
 <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -41,6 +41,7 @@ description:
             <artifactId>druid</artifactId>
             <version>1.1.9</version>
         </dependency>
+</dependencies>
 ```
 
 ## application.xml配置
