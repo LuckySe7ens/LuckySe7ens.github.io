@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 这是一篇博客文章模板
+title: redis源码设计与实现
 date: 2019-2-14
 categories: blog
-tags: [标签一,标签二]
+tags: [redis]
 description: 文章金句。
 ---
 # 动态字符串 SDS(simple dynamic String)
